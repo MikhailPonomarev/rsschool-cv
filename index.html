@@ -2,11 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/png/favicon-32x32.png">
+    <title>cv</title>
 </head>
 <body>
-    
+    <main>
+        <div>
+            <img src="./assets/jpg/photo.jpg" alt="my photo" height="200px" width="200px">
+            <span>Mikhail Ponomarev | QA Engineer</span>
+        </div>
+
+        <div>
+            <h3>Contacts</h3>
+            <ul>
+                <li>Location: Moscow, Russia</li>
+                <li>Phone: +7 (930) 712-05-61</li>
+                <li>Email: michailp800@gmail.com</li>
+                <li>Telegram: @mikhail_ponomarev</li>
+                <li>GitHub: <a href="https://github.com/MikhailPonomarev">@MikhailPonomarev</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>About me</h3>
+            <p>
+                I am 27 y.o. and work as a QA Engineer at Raiffeisenbank. 
+                I work in a team that develops cool and convenient tools for training 
+                and education for bank employees and I really love it. 
+                My key skills are perseverance and the desire to understand difficult things. 
+                My aspirations are self-development and technical excellence in IT.
+            </p>
+        </div>
+
+        <div>
+            <h3>Skills</h3>
+            <ul>
+                <li>Git</li>
+                <li>Java / Kotlin</li>
+                <li>Selenium / Selenide</li>
+                <li>Playwright</li>
+                <li>Allure</li>
+                <li>REST</li>
+                <li>GraphQL</li>
+                <li>Docker</li>
+                <li>SQL / NoSQL (Postgres, MongoDB)</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Code Examples</h3>
+            <h5>Projects:</h5>
+            <ul>
+                <li>
+                    <a href="https://github.com/MikhailPonomarev/AQA_Diploma">Testing automation - Web app</a>
+                </li>
+                <li>
+                    <a href="https://github.com/MikhailPonomarev/QA_Diplom">Testing automation - Android app</a>
+                </li>
+            </ul>
+
+            <h5>JS code example:</h5>
+            <pre>
+                <code>
+                    function peopleWithAgeDrink(old) {
+                        let drink;
+                        //children
+                        if (old < 14) {
+                            drink = 'drink toddy';
+                        }
+                        //teens
+                        if (old >= 14 && old < 18) {
+                            drink = 'drink coke';
+                        }
+                        //young
+                        if (old >= 18 && old < 21) {
+                            drink = 'drink beer';
+                        }
+                        //adult
+                        if (old >= 21) {
+                            drink = 'drink whisky';
+                        }
+                        return drink;
+                      };
+                </code>
+            </pre>
+        </div>
+
+        <div>
+            <h3>Experience</h3>
+            <ul>
+                <li>Junior QA Engineer, First Line Software (2021 - 2022)</li>
+                <li>QA Engineer, Raiffeisenbank (2022 - ...)</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Education</h3>
+            <ul>
+                <li>Nizhny Novgorod State Technical University, Transport Maintenance Engineer</li>
+                <li>Netology, 
+                    <a href="https://netology.ru/programs/qa-middle">QA Engineer - Middle</a>
+                </li>
+                <li>
+                    <a href="https://javarush.com">Javarush</a>
+                    , 30 lvl
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <span>2023</span>
+        <a href="https://github.com/MikhailPonomarev">GitHub</a>
+        <a href="https://rs.school/js/">
+            <img src="./assets/svg/rs_school_js.svg" alt="rsscol-logo" height="100px" width="100px">
+        </a>
+    </footer>
 </body>
 </html>
