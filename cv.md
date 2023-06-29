@@ -15,8 +15,10 @@ I am 27 y.o. and work as a QA Engineer at Raiffeisenbank. I work in a team that 
 * Java / Kotlin
 * Selenium / Selenide
 * Playwright
+* Allure
 * REST
 * GraphQL
+* Docker
 * SQL / NoSQL (MySQL, Postgres, MongoDB)
 
 
@@ -54,6 +56,7 @@ function peopleWithAgeDrink(old) {
 ## Education
 * Nizhny Novgorod State Technical University, Transport Maintenance Engineer
 * Netology, [QA Engineer - Middle](https://netology.ru/programs/qa-middle)
+* [Javarush](https://javarush.com/), 30 lvl
 
 ## Languages
 * Russian
