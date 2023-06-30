@@ -1,38 +1,66 @@
-body {
-    margin-left: 25vw;
-    margin-right: 25vw;
+html {
+    scroll-behavior: smooth; 
 }
 
-.intro-block {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.header {
     margin-left: 50px;
 }
 
-.intro-photo {
+.profile-photo {
     border-radius: 50%;
 }
 
-.intro-text {
+h1 {
     position: relative;
-    left: 50px;
-    bottom: 100px;
-    font-size: 24px;
-    font-weight: bold;
+    left: 250px;
+    bottom: 140px;
 }
 
 ul {
     list-style-type: circle;
 }
 
-.flex-wrapper {
-    display: flex;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.inline-block.width {
-    width: 25vw;
+.footer-elem {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .about-block {
@@ -43,12 +71,8 @@ ul {
     margin-left: auto;
 }
 
-.gh-logo-pos {
-    position: relative;
-    margin-right: 5px;
-}
-
-.footer-text {
-    margin-top: auto;
-    margin-bottom: auto;
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }
