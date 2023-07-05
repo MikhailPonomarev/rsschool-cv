@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 * {
@@ -15,6 +15,10 @@ body {
     justify-content: space-between;
 }
 
+.nav {
+    background-color: #C1D1D1;
+}
+
 .nav-list {
     list-style: none;
     display: flex;
@@ -25,6 +29,7 @@ body {
 .nav-link {
     padding: 0 10px;
     line-height: 50px;
+    color: #4A686A;
 }
 
 a {
@@ -37,7 +42,6 @@ a:hover {
 
 .container {
     width: 1000px;
-    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -46,8 +50,21 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.section {
-    width: 50%;
+.left-section {
+    width: 35%;
+    background-color: #8794C0;
+    color: #F9F8F3;
+}
+
+.right-section {
+    width: 65%;
+    background-color: #F9F8F3;
+    color: #4A686A;
+}
+
+.empty-block {
+    height: 222px;
+    background-color: #FDB137;
 }
 
 .section-title {
@@ -59,34 +76,85 @@ a:hover {
     margin-left: 50px;
 }
 
-.cv-name {
-    font-size: 30px;
+header.container {
+    background-color: #C1D1D1;
+}
+
+#profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
     text-align: center;
 }
 
-.cv-photo {
+#profile img {
+    margin-top: 10px;
     border-radius: 50%;
-    display: flex;
-    margin: auto;
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: none;
+}
+
+ul:not([class]) li {
+    margin-bottom: 10px;
+}
+
+ul:not([class]) img {
+    vertical-align: middle;
+}
+
+ul:not([class]) span {
+    padding-left: 15px;
+}
+
+ul:not([class]) a {
+    padding-left: 15px;
+}
+
+.skills-list {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.skills-list img {
+    vertical-align: middle;
+}
+
+.skills-list span {
+    padding-left: 15px;
+}
+
+#about-me p {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    background-color: #C1D1D1;
 }
 
-.footer-text {
-    position: relative;
-    right: 600px;
+.footer p {
+    margin-right: auto;
+    padding-left: 15px;
+    color: #4A686A;
 }
 
-.footer-logo {
-    padding-right: 15px;
+footer a {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 @media (max-width: 768px) {
